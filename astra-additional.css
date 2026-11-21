@@ -1,3 +1,7 @@
+/* Load the Poppins weights the wd- pages use (Astra only loads 400 and 700).
+   This has to stay at the very top of the CSS to work. */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root {
   --header-bg: #c9ece6;
   --header-text: #0b5c8a;
@@ -51,17 +55,6 @@ body,
    top of the page box on desktop; trim it on wd- pages */
 .ast-separate-container .ast-article-single:has(.wd) {
   padding-top: 0 !important;
-}
-
-/* Standalone pages (Portfolio): hide the Waterdog header, menu,
-   and footer so the page looks like its own site, and add a
-   little space at the top since there's no header */
-body:has(.wd-standalone) #masthead,
-body:has(.wd-standalone) #colophon {
-  display: none !important;
-}
-body:has(.wd-standalone) #primary {
-  margin-top: 40px !important;
 }
 
 /* Pages built with wd- blocks have their own big heading,
