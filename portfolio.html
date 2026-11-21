@@ -5,7 +5,7 @@
     <h1>Steven J. Calaway, MS</h1>
     <p class="wd-degree">MS in Curriculum and Instruction</p>
     <p class="wd-intro">Teacher and founder of Waterdog, with a decade of experience in project-based visual art, design, engineering, and science, pre-K through adult education.</p>
-    <div class="wd-links"><a class="wd-button" href="https://github.com/sjames91" target="_blank" rel="noopener">GitHub</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="mailto:sjamescalaway@gmail.com">Email me</a></div>
+    <div class="wd-links"><a class="wd-button" href="mailto:sjamescalaway@gmail.com">Email me</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="https://github.com/sjames91" target="_blank" rel="noopener">GitHub</a></div>
     <a class="wd-back" href="/about/">Learn more about Waterdog &rarr;</a>
   </section>
 
@@ -43,13 +43,13 @@
     <h2>Software</h2>
     <div class="wd-cards">
       <div class="wd-card">
-        <h3>Chispita Engine</h3>
+        <h3>Chispita Engine <span class="wd-badge">Alpha</span></h3>
         <p>A 2D game engine for microStudio with sprites, physics, collisions, tile maps, a camera, timers, tweens, and a debug mode. Fully documented.</p>
         <div class="wd-card-links"><a class="wd-card-link" href="https://microstudio.io/i/Sjamescalaway/chispita/" target="_blank" rel="noopener">Use the library &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/chispita" target="_blank" rel="noopener">View code &rarr;</a></div>
       </div>
       <div class="wd-card">
-        <h3>Lower Orbit</h3>
-        <p>A side-scrolling ship game built on Chispita Engine. Fly a ship, land it, and get out to explore on foot. A work in progress.</p>
+        <h3>Lower Orbit <span class="wd-badge">Alpha</span></h3>
+        <p>A side-scrolling ship game built on Chispita Engine. Fly a ship, land it, and get out to explore on foot.</p>
         <div class="wd-card-links"><a class="wd-card-link" href="https://microstudio.io/Sjamescalaway/day1thegameplayloopdrawing/JE4B894V/" target="_blank" rel="noopener">Play it &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/shmup/design_docs" target="_blank" rel="noopener">Design docs &rarr;</a></div>
       </div>
     </div>
@@ -161,6 +161,19 @@
   .wd-card p {
     margin: 0 0 12px;
     font-size: 0.95rem;
+  }
+  .wd-badge {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--wd-accent);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
   .wd-card-links {
     margin-top: auto;
