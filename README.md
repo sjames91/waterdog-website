@@ -16,6 +16,6 @@ To add your photo to About or Portfolio, replace `<span>Photo</span>` with `<img
 
 Editing a file here doesn't change the live site. Paste the new version into WordPress too.
 
-## Licensing
+## License
 
-Content: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Code: [MIT](https://opensource.org/license/mit).
+Free and open source. Code is under the [MIT License](LICENSE). Written content and docs are under [CC BY-SA 4.0](LICENSE-CONTENT.md).
