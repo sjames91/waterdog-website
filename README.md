@@ -10,6 +10,9 @@ The `.html` files are snippets, not full pages. Each one is pasted into a **Cust
 | [about.html](about.html) | About page |
 | [portfolio.html](portfolio.html) | Portfolio page ([waterdog.institute/portfolio](https://waterdog.institute/portfolio/)) |
 | [astra-additional.css](astra-additional.css) | Appearance → Customize → Additional CSS |
+| [footer-html.html](footer-html.html) | Customize → Footer Builder → HTML 1 |
+
+To add your photo to About or Portfolio, replace `<span>Photo</span>` with `<img src="PHOTO-URL" alt="Steven J. Calaway">`.
 
 Editing a file here doesn't change the live site. Paste the new version into WordPress too.
 
