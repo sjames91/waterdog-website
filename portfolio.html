@@ -1,12 +1,12 @@
-<div class="wd">
+<div class="wd wd-standalone">
 
   <section class="wd-about-hero">
+    <div class="wd-photo"><span>Photo</span></div>
     <p class="wd-eyebrow">Portfolio</p>
     <h1>Steven J. Calaway, MS</h1>
     <p class="wd-degree">MS in Curriculum and Instruction</p>
     <p class="wd-intro">Teacher and founder of Waterdog, with a decade of experience in project-based visual art, design, engineering, and science, pre-K through adult education.</p>
     <div class="wd-links"><a class="wd-button" href="mailto:sjamescalaway@gmail.com">Email me</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="https://github.com/sjames91" target="_blank" rel="noopener">GitHub</a></div>
-    <a class="wd-back" href="/about/">Learn more about Waterdog &rarr;</a>
   </section>
 
   <section class="wd-section">
@@ -43,6 +43,11 @@
     <h2>Software</h2>
     <div class="wd-cards">
       <div class="wd-card">
+        <h3>Waterdog Institute <span class="wd-badge">In development</span></h3>
+        <p>A free, open-source library of human-made, project-based resources for educators and learners. I designed and built the site.</p>
+        <div class="wd-card-links"><a class="wd-card-link" href="https://waterdog.institute/" target="_blank" rel="noopener">Visit the site &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/waterdog-website" target="_blank" rel="noopener">View code &rarr;</a></div>
+      </div>
+      <div class="wd-card">
         <h3>Chispita Engine <span class="wd-badge">Alpha</span></h3>
         <p>A 2D game engine for microStudio with sprites, physics, collisions, tile maps, a camera, timers, tweens, and a debug mode. Fully documented.</p>
         <div class="wd-card-links"><a class="wd-card-link" href="https://microstudio.io/i/Sjamescalaway/chispita/" target="_blank" rel="noopener">Use the library &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/chispita" target="_blank" rel="noopener">View code &rarr;</a></div>
@@ -76,6 +81,24 @@
     font-size: clamp(1.9rem, 4vw, 2.75rem);
     font-weight: 500;
     margin: 0;
+  }
+  .wd-photo {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 16px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #c9ece6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--wd-blue);
+    font-weight: 600;
+  }
+  .wd-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   .wd-eyebrow {
     color: var(--wd-accent);

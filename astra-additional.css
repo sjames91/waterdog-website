@@ -53,6 +53,17 @@ body,
   padding-top: 0 !important;
 }
 
+/* Standalone pages (Portfolio): hide the Waterdog header, menu,
+   and footer so the page looks like its own site, and add a
+   little space at the top since there's no header */
+body:has(.wd-standalone) #masthead,
+body:has(.wd-standalone) #colophon {
+  display: none !important;
+}
+body:has(.wd-standalone) #primary {
+  margin-top: 40px !important;
+}
+
 /* Pages built with wd- blocks have their own big heading,
    so hide the WordPress page title on those pages */
 article:has(.wd) .entry-header {
