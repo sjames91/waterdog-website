@@ -1,0 +1,94 @@
+<div class="wd">
+
+  <section class="wd-main">
+    <h1>An open-source library for all educators and learners</h1>
+    <ul class="wd-points">
+      <li>Human-made</li>
+      <li>Free and open source</li>
+      <li>Interdisciplinary</li>
+      <li>Project-based</li>
+      <li>Student-centered</li>
+    </ul>
+    <a class="wd-button" href="https://waterdog.institute/for-students/">Browse resources</a>
+  </section>
+
+  <p class="wd-license">
+    <span>Content licensing - <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a></span>
+    <span>Code licensing - <a href="https://opensource.org/license/mit">MIT License</a></span>
+  </p>
+
+</div>
+
+<style>
+  .wd {
+    --wd-blue: #0b5c8a;
+    --wd-accent: #f26b5b;
+    font-family: 'Poppins', sans-serif;
+    color: #2a2a2a;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+    text-align: center;
+  }
+  .wd-main {
+    padding: 64px 0 48px;
+  }
+  .wd-main h1 {
+    color: #2a2a2a;
+    font-size: clamp(1.7rem, 3.6vw, 2.5rem);
+    font-weight: 500;
+    line-height: 1.25;
+    max-width: 640px;
+    margin: 0 auto 32px;
+  }
+  .wd-points {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 28px;
+    max-width: 640px;
+  }
+  .wd-points li {
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .wd-points li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--wd-accent);
+  }
+  .wd-button {
+    display: inline-block;
+    background: var(--wd-blue);
+    color: white;
+    font-weight: 600;
+    padding: 14px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .wd-button:hover {
+    background: var(--wd-accent);
+    color: #2a2a2a;
+  }
+  .wd-license {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 32px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #e6e6e6;
+    padding: 20px 0 40px;
+    margin: 0;
+  }
+  .wd-license a {
+    color: var(--wd-blue);
+  }
+</style>

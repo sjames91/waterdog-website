@@ -1,0 +1,60 @@
+:root {
+  --header-bg: #c9ece6;
+  --header-text: #0b5c8a;
+  --header-hover: #08314d;
+  --page-bg: #fbf4e8;
+}
+
+.main-header-menu .menu-link {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: var(--header-text) !important;
+}
+
+.main-header-menu .menu-link:hover,
+.main-header-menu .current-menu-item > .menu-link {
+  color: var(--header-hover) !important;
+}
+
+.site-title a,
+.site-description {
+  color: var(--header-text) !important;
+}
+
+.site-header,
+.main-header-bar,
+.ast-primary-header-bar,
+.ast-above-header-bar,
+.ast-below-header-bar,
+.ast-builder-grid-row-container,
+.site-branding,
+.ast-site-identity,
+.ast-mobile-header-wrap {
+  background: var(--header-bg) !important;
+}
+
+body,
+.site-content,
+.ast-separate-container,
+.ast-plain-container,
+.ast-separate-container .ast-article-single,
+.ast-separate-container .ast-article-post {
+  background: var(--page-bg) !important;
+}
+
+/* Pages built with wd- blocks (Home, About): less space under the header */
+#primary:has(.wd) {
+  margin-top: 0 !important;
+}
+
+/* Astra's "separate container" puts about 85px of padding at the
+   top of the page box on desktop; trim it on wd- pages */
+.ast-separate-container .ast-article-single:has(.wd) {
+  padding-top: 0 !important;
+}
+
+/* Pages built with wd- blocks have their own big heading,
+   so hide the WordPress page title on those pages */
+article:has(.wd) .entry-header {
+  display: none !important;
+}

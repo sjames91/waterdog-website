@@ -1,0 +1,180 @@
+<div class="wd">
+
+  <section class="wd-about-hero">
+    <p class="wd-eyebrow">Portfolio</p>
+    <h1>Steven J. Calaway, MS</h1>
+    <p class="wd-degree">MS in Curriculum and Instruction</p>
+    <p class="wd-intro">Teacher and founder of Waterdog, with a decade of experience in project-based visual art, design, engineering, and science, pre-K through adult education.</p>
+    <div class="wd-links"><a class="wd-button" href="https://github.com/sjames91" target="_blank" rel="noopener">GitHub</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="mailto:sjamescalaway@gmail.com">Email me</a></div>
+    <a class="wd-back" href="/about/">Learn more about Waterdog &rarr;</a>
+  </section>
+
+  <section class="wd-section">
+    <h2>Curriculum</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Curriculum maps, units, and lessons.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-section">
+    <h2>Educational tools</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Tools for tracking data, accessible testing, grading, and learning management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-section">
+    <h2>Tutorials</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Step-by-step guides for teachers and learners.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-section">
+    <h2>Software</h2>
+    <div class="wd-cards">
+      <div class="wd-card">
+        <h3>Chispita</h3>
+        <p>A 2D game engine for microStudio with sprites, physics, collisions, tile maps, a camera, timers, tweens, and a debug mode. Fully documented.</p>
+        <a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/chispita" target="_blank" rel="noopener">View code &rarr;</a>
+      </div>
+      <div class="wd-card">
+        <h3>Shmup</h3>
+        <p>A side-scrolling ship game built on Chispita. Fly a ship, land it, and get out to explore on foot. A work in progress.</p>
+        <a class="wd-card-link" href="https://microstudio.io/Sjamescalaway/day1thegameplayloopdrawing/JE4B894V/" target="_blank" rel="noopener">Play it &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<style>
+  .wd {
+    --wd-blue: #0b5c8a;
+    --wd-accent: #f26b5b;
+    font-family: 'Poppins', sans-serif;
+    color: #2a2a2a;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .wd-about-hero {
+    text-align: center;
+    padding: 0;
+  }
+  .wd-about-hero h1 {
+    color: #2a2a2a;
+    font-size: clamp(1.9rem, 4vw, 2.75rem);
+    font-weight: 500;
+    margin: 0;
+  }
+  .wd-eyebrow {
+    color: var(--wd-accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.9rem;
+    margin: 0 0 4px;
+  }
+  .wd-degree {
+    color: var(--wd-blue);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 4px 0 0;
+  }
+  .wd-intro {
+    font-size: 1.1rem;
+    max-width: 620px;
+    margin: 8px auto 0;
+  }
+  .wd-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 12px;
+  }
+  .wd-button {
+    display: inline-block;
+    background: var(--wd-blue);
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .wd-button:hover {
+    background: var(--wd-accent);
+    color: #2a2a2a;
+  }
+  .wd-button-outline {
+    background: transparent;
+    color: var(--wd-blue);
+    box-shadow: inset 0 0 0 2px var(--wd-blue);
+  }
+  .wd-button-outline:hover {
+    background: var(--wd-blue);
+    color: white;
+  }
+  .wd-back {
+    color: var(--wd-blue);
+    font-size: 0.95rem;
+  }
+  .wd-section {
+    padding: 20px 0;
+    line-height: 1.6;
+  }
+  .wd-section h2 {
+    color: var(--wd-blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .wd-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  .wd-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid var(--wd-accent);
+    display: flex;
+    flex-direction: column;
+  }
+  .wd-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .wd-card p {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+  }
+  .wd-card-link {
+    margin-top: auto;
+    color: var(--wd-blue);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .wd-card-link:hover {
+    color: var(--wd-accent);
+  }
+  .wd-card-empty {
+    background: transparent;
+    box-shadow: none;
+    border: 2px dashed #c9ece6;
+    color: #666;
+  }
+</style>
