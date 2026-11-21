@@ -8,6 +8,7 @@ The `.html` files are snippets, not full pages. Each one is pasted into a **Cust
 | --- | --- |
 | [home.html](home.html) | Home page |
 | [about.html](about.html) | About page |
+| [resources.html](resources.html) | Resources page ([waterdog.institute/for-students](https://waterdog.institute/for-students/)) |
 | [portfolio.html](portfolio.html) | Portfolio page ([waterdog.institute/portfolio](https://waterdog.institute/portfolio/)) |
 | [astra-additional.css](astra-additional.css) | Appearance → Customize → Additional CSS |
 | [footer-html.html](footer-html.html) | Customize → Footer Builder → HTML 1 |

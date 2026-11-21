@@ -1,0 +1,149 @@
+<div class="wd">
+
+  <section class="wd-about-hero">
+    <h1>Resources</h1>
+    <p class="wd-intro">Free, open-source, human-made resources for teachers and learners. Everything here is ready to use, adapt, and share.</p>
+    <p class="wd-note">We're just getting started. New resources are added as they're ready.</p>
+  </section>
+
+  <section class="wd-section">
+    <h2>Curriculum</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Curriculum maps, units, and ready-to-use lessons.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-section">
+    <h2>Tools</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Tools for tracking student data, accessible testing, grading, and learning management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-section">
+    <h2>Other resources</h2>
+    <div class="wd-cards">
+      <div class="wd-card wd-card-empty">
+        <h3>Coming soon</h3>
+        <p>Guides, tutorials, and more for teachers, students, and families.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wd-contribute">
+    <h2>Want to contribute?</h2>
+    <p>Waterdog is built by educators, for educators. If you have a resource to share or an idea for one, we'd love to hear from you.</p>
+    <div class="wd-links"><a class="wd-button" href="mailto:sjamescalaway@gmail.com">Get in touch</a></div>
+  </section>
+
+</div>
+
+<style>
+  .wd {
+    --wd-blue: #0b5c8a;
+    --wd-accent: #f26b5b;
+    font-family: 'Poppins', sans-serif;
+    color: #2a2a2a;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .wd-about-hero {
+    text-align: center;
+    padding: 0;
+  }
+  .wd-about-hero h1 {
+    color: #2a2a2a;
+    font-size: clamp(1.9rem, 4vw, 2.75rem);
+    font-weight: 500;
+    margin: 0;
+  }
+  .wd-intro {
+    font-size: 1.1rem;
+    max-width: 780px;
+    margin: 8px auto 0;
+  }
+  .wd-note {
+    margin: 8px 0 0;
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+  }
+  .wd-section {
+    padding: 20px 0;
+    line-height: 1.6;
+  }
+  .wd-section h2,
+  .wd-contribute h2 {
+    color: var(--wd-blue);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 12px;
+  }
+  .wd-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+  }
+  .wd-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border-top: 4px solid var(--wd-accent);
+    display: flex;
+    flex-direction: column;
+  }
+  .wd-card h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .wd-card p {
+    margin: 0 0 12px;
+    font-size: 0.95rem;
+  }
+  .wd-card-empty {
+    background: transparent;
+    box-shadow: none;
+    border: 2px dashed #c9ece6;
+    color: #666;
+  }
+  .wd-contribute {
+    text-align: center;
+    max-width: 680px;
+    margin: 20px auto 0;
+    padding: 28px 0 20px;
+    border-top: 1px solid #e6e6e6;
+    line-height: 1.6;
+  }
+  .wd-contribute p {
+    margin: 0;
+  }
+  .wd-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0 0;
+  }
+  .wd-button {
+    display: inline-block;
+    background: var(--wd-blue);
+    color: white;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .wd-button:hover {
+    background: var(--wd-accent);
+    color: #2a2a2a;
+  }
+</style>
