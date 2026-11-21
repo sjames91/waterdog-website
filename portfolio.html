@@ -43,14 +43,14 @@
     <h2>Software</h2>
     <div class="wd-cards">
       <div class="wd-card">
-        <h3>Chispita</h3>
+        <h3>Chispita Engine</h3>
         <p>A 2D game engine for microStudio with sprites, physics, collisions, tile maps, a camera, timers, tweens, and a debug mode. Fully documented.</p>
-        <a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/chispita" target="_blank" rel="noopener">View code &rarr;</a>
+        <div class="wd-card-links"><a class="wd-card-link" href="https://microstudio.io/i/Sjamescalaway/chispita/" target="_blank" rel="noopener">Use the library &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/chispita" target="_blank" rel="noopener">View code &rarr;</a></div>
       </div>
       <div class="wd-card">
-        <h3>Shmup</h3>
-        <p>A side-scrolling ship game built on Chispita. Fly a ship, land it, and get out to explore on foot. A work in progress.</p>
-        <a class="wd-card-link" href="https://microstudio.io/Sjamescalaway/day1thegameplayloopdrawing/JE4B894V/" target="_blank" rel="noopener">Play it &rarr;</a>
+        <h3>Lower Orbit</h3>
+        <p>A side-scrolling ship game built on Chispita Engine. Fly a ship, land it, and get out to explore on foot. A work in progress.</p>
+        <div class="wd-card-links"><a class="wd-card-link" href="https://microstudio.io/Sjamescalaway/day1thegameplayloopdrawing/JE4B894V/" target="_blank" rel="noopener">Play it &rarr;</a><a class="wd-card-link" href="https://github.com/sjames91/lua-projects/tree/main/microstudio/shmup/design_docs" target="_blank" rel="noopener">Design docs &rarr;</a></div>
       </div>
     </div>
   </section>
@@ -161,6 +161,12 @@
   .wd-card p {
     margin: 0 0 12px;
     font-size: 0.95rem;
+  }
+  .wd-card-links {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 20px;
   }
   .wd-card-link {
     margin-top: auto;
