@@ -1,14 +1,11 @@
 <div class="wd">
-
   <section class="wd-about-hero">
     <h1>About Waterdog</h1>
   </section>
-
   <section class="wd-section">
     <h2>Our mission</h2>
     <p class="wd-lead">Everyone deserves access to high-quality learning resources.</p>
     <p>Teachers spend countless hours planning, building materials, tracking data, and grading before they ever get to teach. Waterdog takes that heavy lifting off their plate, so teachers can focus on what they do best: teaching.</p>
-
     <h3>What we're building</h3>
     <ul class="wd-list">
       <li><strong>Curriculum</strong> - curriculum maps, units, and ready-to-use lessons</li>
@@ -16,175 +13,26 @@
       <li><strong>Accessible testing</strong> - test-taking tools that work for every learner</li>
       <li><strong>Classroom tools</strong> - grading and learning management</li>
     </ul>
-
     <p class="wd-note">We're still building. New resources are added as they're ready.</p>
   </section>
-
-  <section class="wd-section">
+  <section class="wd-section wd-team-section">
     <h2>Meet the team</h2>
-    <div class="wd-founder">
-
-      <div class="wd-photo"><span>Photo</span></div>
-
-      <div class="wd-founder-text">
+    <div class="wd-team">
+      <div class="wd-member">
+        <div class="wd-photo"><span>Photo</span></div>
         <p class="wd-founder-name">Steven J. Calaway</p>
         <p class="wd-founder-title">Founder</p>
         <p class="wd-degree">MS in Curriculum and Instruction</p>
         <p>Hi, I'm Steven. I'm a teacher with a decade of experience in project-based learning, teaching visual art, design, engineering, and science to learners from pre-K through adult education.</p>
-        <!-- WHY I STARTED WATERDOG: add a paragraph here later -->
+        <div class="wd-links"><a class="wd-button" href="/portfolio/">See my work &rarr;</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="mailto:sjamescalaway@gmail.com">Email me</a></div>
       </div>
-
+      <div class="wd-member">
+        <div class="wd-photo"><span>Photo</span></div>
+        <p class="wd-founder-name">Cory Calaway</p>
+        <p class="wd-founder-title">Lead Technical Engineer</p>
+        <p>Hi, I'm Cory. I'm a lead technical engineer who builds and maintains software professionally.</p>
+      </div>
     </div>
-
-    <div class="wd-links"><a class="wd-button" href="/portfolio/">See my work &rarr;</a><a class="wd-button wd-button-outline" href="https://www.linkedin.com/in/steven-calaway-ms-169677419" target="_blank" rel="noopener">LinkedIn</a><a class="wd-button wd-button-outline" href="mailto:sjamescalaway@gmail.com">Email me</a></div>
   </section>
-
 </div>
-
-<style>
-  .wd {
-    --wd-blue: #0b5c8a;
-    --wd-accent: #f26b5b;
-    font-family: 'Poppins', sans-serif;
-    color: #2a2a2a;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-  .wd-about-hero {
-    text-align: center;
-    padding: 0;
-  }
-  .wd-about-hero h1 {
-    color: #2a2a2a;
-    font-size: clamp(1.9rem, 4vw, 2.75rem);
-    font-weight: 500;
-    margin: 0;
-  }
-  .wd-section {
-    max-width: 680px;
-    margin: 0 auto;
-    padding: 20px 0;
-    line-height: 1.6;
-  }
-  .wd-section h2 {
-    color: var(--wd-blue);
-    font-size: 1.6rem;
-    font-weight: 600;
-    margin: 0 0 12px;
-  }
-  .wd-section h3 {
-    color: #2a2a2a;
-    font-size: 1.15rem;
-    font-weight: 600;
-    margin: 20px 0 8px;
-  }
-  .wd-lead {
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin: 0 0 16px;
-  }
-  .wd-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .wd-list li {
-    display: flex;
-    align-items: baseline;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  .wd-list li::before {
-    content: "";
-    flex-shrink: 0;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: var(--wd-accent);
-    transform: translateY(-1px);
-  }
-  .wd-note {
-    margin-top: 16px;
-    font-size: 0.95rem;
-    color: #666;
-    font-style: italic;
-  }
-  .wd-founder {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    align-items: flex-start;
-  }
-  .wd-photo {
-    flex-shrink: 0;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #c9ece6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--wd-blue);
-    font-weight: 600;
-  }
-  .wd-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .wd-founder-text {
-    flex: 1;
-    min-width: 260px;
-  }
-  .wd-founder-name {
-    font-size: 1.25rem;
-    font-weight: 600;
-    margin: 0;
-  }
-  .wd-founder-title {
-    color: var(--wd-accent);
-    font-weight: 600;
-    margin: 0;
-  }
-  .wd-degree {
-    color: var(--wd-blue);
-    font-weight: 600;
-    margin: 0 0 12px;
-  }
-  .wd-button {
-    display: inline-block;
-    margin-top: 8px;
-    background: var(--wd-blue);
-    color: white;
-    font-weight: 600;
-    padding: 14px 30px;
-    border-radius: 8px;
-    text-decoration: none;
-  }
-  .wd-button:hover {
-    background: var(--wd-accent);
-    color: #2a2a2a;
-  }
-  .wd-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 24px;
-  }
-  .wd-links .wd-button {
-    margin-top: 0;
-    padding: 12px 24px;
-  }
-  .wd-button-outline {
-    background: transparent;
-    color: var(--wd-blue);
-    box-shadow: inset 0 0 0 2px var(--wd-blue);
-  }
-  .wd-button-outline:hover {
-    background: var(--wd-blue);
-    color: white;
-  }
-</style>
+<style>/* Kept on one line on purpose: WordPress adds line-break tags inside multi-line styles, which breaks them. */ .wd { --wd-blue: #0b5c8a; --wd-accent: #f26b5b; font-family: 'Poppins', sans-serif; color: #2a2a2a; max-width: 900px; margin: 0 auto; padding: 0 24px; } .wd-about-hero { text-align: center; padding: 0; } .wd-about-hero h1 { color: #2a2a2a; font-size: clamp(1.9rem, 4vw, 2.75rem); font-weight: 500; margin: 0; } .wd-section { max-width: 680px; margin: 0 auto; padding: 20px 0; line-height: 1.6; } .wd-section h2 { color: var(--wd-blue); font-size: 1.6rem; font-weight: 600; margin: 0 0 12px; } .wd-section h3 { color: #2a2a2a; font-size: 1.15rem; font-weight: 600; margin: 20px 0 8px; } .wd-lead { font-size: 1.25rem; font-weight: 500; margin: 0 0 16px; } .wd-list { list-style: none; padding: 0; margin: 0; } .wd-list li { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; } .wd-list li::before { content: ""; flex-shrink: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--wd-accent); transform: translateY(-1px); } .wd-note { margin-top: 16px; font-size: 0.95rem; color: #666; font-style: italic; } .wd-team-section { max-width: 900px; } .wd-team { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; } .wd-member .wd-photo { width: 140px; height: 140px; margin-bottom: 12px; } .wd-member .wd-founder-title + p { margin-top: 12px; } .wd-member .wd-links { justify-content: flex-start; margin-top: 16px; } .wd-member .wd-links .wd-button { padding: 10px 18px; } .wd-photo { flex-shrink: 0; width: 180px; height: 180px; border-radius: 50%; overflow: hidden; background: #c9ece6; display: flex; align-items: center; justify-content: center; color: var(--wd-blue); font-weight: 600; } .wd-photo img { width: 100%; height: 100%; object-fit: cover; } .wd-founder-name { font-size: 1.25rem; font-weight: 600; margin: 0; } .wd-founder-title { color: var(--wd-accent); font-weight: 600; margin: 0; } .wd-degree { color: var(--wd-blue); font-weight: 600; margin: 0 0 12px; } .wd-button { display: inline-block; margin-top: 8px; background: var(--wd-blue); color: white; font-weight: 600; padding: 14px 30px; border-radius: 8px; text-decoration: none; } .wd-button:hover { background: var(--wd-accent); color: #2a2a2a; } .wd-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 24px; } .wd-links .wd-button { margin-top: 0; padding: 12px 24px; } .wd-button-outline { background: transparent; color: var(--wd-blue); box-shadow: inset 0 0 0 2px var(--wd-blue); } .wd-button-outline:hover { background: var(--wd-blue); color: white; }</style>
